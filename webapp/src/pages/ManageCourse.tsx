@@ -7,8 +7,6 @@ import { Tabs } from "../types/courses";
 
 export const CourseTabsList: Tabs[] = ["Course Info"];
 
-// type ManageCourseProps = {};
-
 function ManageCourse() {
   const [activeTab, setActiveTab] = useState<Tabs>("Course Info");
   const match = useMatch();
